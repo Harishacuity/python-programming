@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>assessment2_formsign</title>
+</head>
+<body>
+    <h1>Course Sign Up Page</h1>
+    <p>Please Note: First Name, Last Name, Password and Email are <strong>required.</strong></p>
+    <form action="/home/harish/Dropbox/FullStack/HTML_level_two/acknowledge.html" method="GET" >
+        <label for="fname">First Name:</label>
+        <input type="text" name="Firstname" id="fname" placeholder="first name" required>
+        <label for="lname">Last Name</label>
+        <input type="text" name="Lastname" id="lname" placeholder="Last name" required>
+        <p></p>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="name@mail.com" required>
+        <label for="pass">Password:</label>
+        <input type="password" name="password" id="pass" required>
+        <p></p>
+        <p>Are you over the age of 18?</p>
+        <label for="yes">Yes:</label>
+        <input type="radio" name="age" id="yes" >
+        <label for="no">No:</label>
+        <input type="radio" name="age" id="no">
+        <p>Do you have a Credit Card or Paypal?</p>
+        <select name="mode of transaction" >
+            <option value="credit">Credit card</option>
+            <option value="paypal">Paypal</option>
+        </select>
+        <input type="submit" name="" value="Sign up">
+        
+    </form>
+    
+
+</body>
+</html>
