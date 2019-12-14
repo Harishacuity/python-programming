@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Assessment Test CSS LEVEL ONE</title>
+    <!-- for the below code give the path of the related CSS file in href  -->
+    <link rel="stylesheet" href="/home/harish/Downloads/Python and Django Full Stack Web Developer Bootcamp/Python and Django Full Stack Web Developer Bootcamp/[Tutsgalaxy.com] - Python and Django Full Stack Web Developer Bootcamp/01 Course Introduction/Django-Python-Full-Stack-Web-Devloper-master/CSS_Level_One/CSS_Level_One_Assessment.css">
+  </head>
+  <body>
+    <h1>Welcome to Free Blog!</h1>
+
+    <div class="">
+      <p>Thanks so much for visiting this site!</p>
+
+    </div>
+
+    <h2>What is this site for?</h2>
+    <p>This site can do three things:</p>
+    <ol>
+      <li id='itemone'>Take in text input</li>
+      <li>Take in Log In Information</li>
+      <li><a href="http://www.google.com">Take you to Google</a></li>
+    </ol>
+
+    <div class="blogtext">
+      <textarea name="name" id="textblock"></textarea>
+    </div>
+
+    <h2>Please log in to save your blog post</h2>
+
+    <form class="loginForm" method="get">
+      <label for="mail">Email: </label>
+      <input type="email" id="mail" value="">
+
+      <label for="pass">Password: </label>
+      <input type="password" id="pass" value="">
+
+      <input type="submit" name="" value="Log In">
+
+
+    </form>
+
+    <div class="exit">
+
+
+
+    <p>Questions or Comments? Send us feedback here:</p>
+
+    <textarea name="name" rows="8" cols="80"></textarea>
+
+    </div>
+
+
+
+  </body>
+</html>
+
+
+
+=========================================================X===================================================================
+
+**CSS**
+
+body{
+    background-color: #6ff7e1 ;
+}
+
+
+/*Task # 2
+Change the h1 to have a 1px solid black border*/
+
+h1{
+    border: 1px black solid;
+}
+
+
+/*Task # 3
+Make all h2 elements the color purple*/
+
+h2{
+    color: purple;
+}
+
+
+
+/*Task # 4
+Make all input boxes have a 2px solid dark red border (use rgb for this)*/
+
+input{
+    border: 2px rgb(125,4,4) solid;
+}
+
+
+/*Task # 5
+Give a light yellow background to all <p> elements inside of a <div> element
+Use HEX for the color*/
+
+div p{
+    background-color:#f5d849 ;
+}
+
+
+
+/*Task # 6
+There is a textarea element with the id=textblock, give it the following properties:
+* A 5px solid gray border
+* A width of 800px and a height of 400px
+ */
+
+#textblock{
+     height: 400px;
+     width: 800px;
+     border: 5px gray solid;
+ }
+
+
+
+/*Task # 7
+There is a link to Google on the page. Make this link red.*/
+
+a{
+    color: red;
+    
+}
+
+/*Task # 8
+Make elements with the id="itemone" have an overline text-decoration.
+and be the color purple.*/
+
+#itemone{
+    text-decoration: overline;
+    color: purple;
+}
+
+
+/*Task # 9
+Finally, make the elements with the class label "exit" have
+a background of blue and a 4px dashed yellow border.*/
+
+.exit{
+    background: blue;
+    border: 4px yellow dashed;
+}
+
+
+/*BONUS CHALLENGE: Task 10
+There is a link to Google on the page in the list.
+Can you figure out how to change the color if you click on the link?
+(Hint: Google "css visited") */
+
+a:visited{
+    color: green;
+}
+
+
