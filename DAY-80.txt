@@ -1,0 +1,126 @@
+
+>>>>>SOLUTION.HTML<<<<<<<<
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/home/harish/Dropbox/FullStack/capstone_project/solution.css">
+
+    <title>project_1</title>
+</head>
+<body>
+    <h1>Welcome to the Landing Page</h1>
+    <h2>We are start-up that does something</h2>
+    
+    
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores numquam suscipit ut architecto nemo debitis vel aspernatur consequuntur, fugit dolorem blanditiis. Nihil repellat fuga soluta assumenda. Nisi velit et necessitatibus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ex voluptas alias, molestiae vitae molestias, doloremque asperiores minus iure dolorum maiores temporibus quibusdam quas atque tenetur. Eius dolor officiis possimus!</p>
+    
+    <h2>Sign-up for a upcoming launch!</h2>
+    
+    <!-- <p></p> -->
+    <form action="/home/harish/Dropbox/FullStack/capstone_project/feedback.html" method="GET">
+        <!-- <p>Firstname:</p> -->
+        <!-- <p></p> -->
+        <label for="firstname">Firstname:</label><br>
+        <input type="text" name="firstname" ><br>
+        <!-- <p></p> -->
+        <!-- <p>Last name:</p> -->
+        <!-- <p></p> -->
+        <label for="lastname">Lastname:</label><br>
+        <input type="text" name="lastname"><br>
+        <!-- <p></p> -->
+        <!-- <p>E-mail:</p> -->
+        <!-- <p></p> -->
+        <label for="email">E-mail</label><br>
+        <input type="email" name="email"><br>
+        <!-- <p></p> -->
+        <input type="submit" id= "sub" value="sign me up">
+    </form>
+
+</body>
+</html>
+
+
+>>>>>SOLUTION.CSS<<<<<<<
+body{
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Lobster', cursive;
+    color: #f5d922;
+    background-color: black;
+    text-align: center;
+    border: 40px solid chocolate;
+    border-top: 0px;
+    margin: 0px;
+}
+
+p{
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+form{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#sub{
+    background-color: #e88700;
+    height: 60px;
+    width: 180px;
+    margin: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 20px;
+
+}
+
+
+=====================================================X=============================================================
+>>>>>>>FEEDBACK.HTML<<<<<<<<
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>feedback</title>
+    <link rel="stylesheet" href="/home/harish/Dropbox/FullStack/capstone_project/feedback.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h2>Thanks for signing up!</h2>
+    <p></p>
+    <h3>We'll reach out you soon.</h3>
+</body>
+</html>
+
+
+
+
+>>>>>FEEDBACK.CSS<<<<<<
+
+body{
+    font-family: 'Lobster', cursive;
+    border: 40px solid chocolate;
+    border-top: 0px;
+    margin: 0px;
+    text-align: center;
+    background-color: black;
+    color: #f5d922;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 2em;
+}
